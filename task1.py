@@ -30,6 +30,7 @@ def delete_task():
 def delete_all_task():
     if messagebox.askyesno("Warning", "Are you sure you want to delete all tasks?"):
         List.delete(0, END)
+        
 myapp = Tk()
 myapp.title("Daily Checklist")
 myapp.iconbitmap('app.ico')
