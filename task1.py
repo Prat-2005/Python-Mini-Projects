@@ -33,7 +33,6 @@ def delete_all_task():
         
 myapp = Tk()
 myapp.title("Daily Checklist")
-myapp.iconbitmap('app.ico')
 myapp.config(bg = "green")
 myapp.minsize(width = 550, height = 360)
 myapp.maxsize(width = 550, height = 360)
