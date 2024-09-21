@@ -5,7 +5,6 @@ import string
 
 def create_app():
     app = Tk()
-    app.iconbitmap("padlock.ico")
     app.config(bg="midnight blue")
     app.title("Random Password Generator")
     app.maxsize(width=400, height=260)
